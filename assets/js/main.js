@@ -1,3 +1,7 @@
+alert ("BENVENUTO SU QUESTO TRENO DI NUOVA GENERAZIONE! NON AVRAI IL TEMPO DI GODERTI IL VIAGGIO QUINDI NIENTE CONVENEVOLI, NON METTERTI COMODO.")
+
+var nome = prompt("Inserisci il tuo nome:")
+
 var km = parseFloat(prompt("Tra quanti chilometri ti buttiamo giu?"));
 
 var eta = parseInt(prompt("Quanto anni hai?"));
@@ -17,13 +21,17 @@ console.log(biglietto);
 
 if (eta < 18) {
 
-    console.log(biglietto - sconto20);
+    console.log((biglietto - sconto20) + "€");
 
 } else if (eta > 65) {
 
-    console.log(biglietto - sconto40);
+    console.log((biglietto - sconto40)+ "€") ;
 
 } else {
 
-    console.log(biglietto);
+    console.log((biglietto) + "€");
 }
+
+document.getElementById("nome").innerHTML = "Nome passeggero:" + nome;
+document.getElementById("km").innerHTML = km + " km di viaggio.";
+document.getElementById("prezzo").innerHTML = biglietto + "€.";
