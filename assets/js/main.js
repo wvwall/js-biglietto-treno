@@ -32,6 +32,6 @@ if (eta < 18) {
     console.log((biglietto) + "€");
 }
 
-document.getElementById("nome").innerHTML = "Nome passeggero:" + nome;
-document.getElementById("km").innerHTML = km + " km di viaggio.";
-document.getElementById("prezzo").innerHTML = biglietto + "€.";
+document.getElementById("nome").innerHTML = "Nome passeggero: " + nome;
+document.getElementById("km").innerHTML = " Km di viaggio: " + km ;
+document.getElementById("prezzo").innerHTML = "Prezzo: " + biglietto + "€";
