@@ -19,8 +19,8 @@
     margin: 0 auto;
     background: #fff;
     background: linear-gradient(to right bottom,
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.5));
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.4));
     border-radius: 100px;
     display: flex;
     justify-content: center;
@@ -36,32 +36,32 @@
     padding: 20px 0;
     border-radius: 100px;
     min-height: 50vh;
-    background: linear-gradient(to bottom right,#006CFA, #00DA70);
+    background: linear-gradient(to bottom right,
+     rgba(0, 108, 250,0.6), 
+     rgba(0, 218, 112,0.8));
+    
 }
 h1 {
     text-align: center;
     font-size: 20px;
-    height: auto;
-    
+    height: auto;   
     color: #fff;
-    padding: 5px 10px;
+    padding: 5px 5px;
     border-radius: 100px;
     width: 70%;
     margin: 10px 0;
     color: #000;
-   
 }
 
 #pdf {
     text-transform: uppercase;
     color: #fff;
-  
     background: linear-gradient(to top right,red, yellow);
 }
 #pdf:hover {
     -webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
     cursor: pointer;
  }
 
